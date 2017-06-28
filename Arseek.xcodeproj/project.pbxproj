@@ -528,6 +528,7 @@
 				B48EDFEB1F0436C300668DFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48EDFEC1F0436C300668DFD /* Build configuration list for PBXNativeTarget "ArseekTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +537,7 @@
 				B48EDFEE1F0436C300668DFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48EDFEF1F0436C300668DFD /* Build configuration list for PBXNativeTarget "ArseekUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +546,7 @@
 				B48EDFF11F0436C300668DFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
