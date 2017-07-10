@@ -99,13 +99,13 @@
 		B48EDFC11F0436C300668DFD /* Arseek */ = {
 			isa = PBXGroup;
 			children = (
-				B48EDFC21F0436C300668DFD /* AppDelegate.swift */,
-				B48EDFC41F0436C300668DFD /* art.scnassets */,
-				B48EDFC61F0436C300668DFD /* ViewController.swift */,
-				B48EDFC81F0436C300668DFD /* Main.storyboard */,
-				B48EDFCB1F0436C300668DFD /* Assets.xcassets */,
-				B48EDFCD1F0436C300668DFD /* LaunchScreen.storyboard */,
-				B48EDFD01F0436C300668DFD /* Info.plist */,
+				B4B9E24E1F14086000325548 /* Protocols */,
+				B4B9E24A1F14082E00325548 /* Core */,
+				B4B9E24F1F14086600325548 /* Views */,
+				B4B9E24C1F14083D00325548 /* Controllers */,
+				B4B9E24B1F14083400325548 /* Coordinators */,
+				B4B9E2491F14082800325548 /* Services */,
+				B4B9E24D1F14085300325548 /* Supplementary */,
 			);
 			path = Arseek;
 			sourceTree = "<group>";
@@ -126,6 +126,62 @@
 				B48EDFE61F0436C300668DFD /* Info.plist */,
 			);
 			path = ArseekUITests;
+			sourceTree = "<group>";
+		};
+		B4B9E2491F14082800325548 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B4B9E24A1F14082E00325548 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B48EDFC21F0436C300668DFD /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B4B9E24B1F14083400325548 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		B4B9E24C1F14083D00325548 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B48EDFC61F0436C300668DFD /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B4B9E24D1F14085300325548 /* Supplementary */ = {
+			isa = PBXGroup;
+			children = (
+				B48EDFCD1F0436C300668DFD /* LaunchScreen.storyboard */,
+				B48EDFC41F0436C300668DFD /* art.scnassets */,
+				B48EDFCB1F0436C300668DFD /* Assets.xcassets */,
+				B48EDFD01F0436C300668DFD /* Info.plist */,
+			);
+			path = Supplementary;
+			sourceTree = "<group>";
+		};
+		B4B9E24E1F14086000325548 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B4B9E24F1F14086600325548 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B48EDFC81F0436C300668DFD /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -423,7 +479,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2C8QT4S3BM;
+				DEVELOPMENT_TEAM = 2Z5R483MNF;
 				INFOPLIST_FILE = Arseek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.EvergreenLabs.Arseek;
@@ -437,7 +493,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2C8QT4S3BM;
+				DEVELOPMENT_TEAM = 2Z5R483MNF;
 				INFOPLIST_FILE = Arseek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.EvergreenLabs.Arseek;
