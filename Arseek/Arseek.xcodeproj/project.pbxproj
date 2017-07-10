@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C030870B8A127EF77DE2AFA /* Pods_ArseekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35EEB24744B293FEB381CAE2 /* Pods_ArseekTests.framework */; };
+		5A4F3F440D89F93AA0594733 /* Pods_Arseek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1274E415C9401831F446525D /* Pods_Arseek.framework */; };
 		B48EDFC31F0436C300668DFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48EDFC21F0436C300668DFD /* AppDelegate.swift */; };
 		B48EDFC51F0436C300668DFD /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B48EDFC41F0436C300668DFD /* art.scnassets */; };
 		B48EDFC71F0436C300668DFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48EDFC61F0436C300668DFD /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		B48EDFCF1F0436C300668DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48EDFCD1F0436C300668DFD /* LaunchScreen.storyboard */; };
 		B48EDFDA1F0436C300668DFD /* ArseekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48EDFD91F0436C300668DFD /* ArseekTests.swift */; };
 		B48EDFE51F0436C300668DFD /* ArseekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48EDFE41F0436C300668DFD /* ArseekUITests.swift */; };
+		C182A251A19E64BF144C5755 /* Pods_ArseekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC636CB57FBF2A5411652729 /* Pods_ArseekUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B8C1B79BD6E991C2EE4268F /* Pods-Arseek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arseek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arseek/Pods-Arseek.debug.xcconfig"; sourceTree = "<group>"; };
+		1274E415C9401831F446525D /* Pods_Arseek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arseek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17810B360F0AA1BB9494DB5F /* Pods-ArseekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArseekUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArseekUITests/Pods-ArseekUITests.release.xcconfig"; sourceTree = "<group>"; };
+		35EEB24744B293FEB381CAE2 /* Pods_ArseekTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArseekTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9AF179B1C58F188BA05B85 /* Pods-ArseekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArseekTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArseekTests/Pods-ArseekTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F57589F0A6B33BAA42466FF /* Pods-Arseek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arseek.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arseek/Pods-Arseek.release.xcconfig"; sourceTree = "<group>"; };
 		B48EDFBF1F0436C300668DFD /* Arseek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arseek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48EDFC21F0436C300668DFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B48EDFC41F0436C300668DFD /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		B48EDFE01F0436C300668DFD /* ArseekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArseekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48EDFE41F0436C300668DFD /* ArseekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArseekUITests.swift; sourceTree = "<group>"; };
 		B48EDFE61F0436C300668DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB12E7E14B1BA5C371918542 /* Pods-ArseekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArseekUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArseekUITests/Pods-ArseekUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB18A5815E2ACFFE1242CC5B /* Pods-ArseekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArseekTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArseekTests/Pods-ArseekTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC636CB57FBF2A5411652729 /* Pods_ArseekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArseekUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4F3F440D89F93AA0594733 /* Pods_Arseek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C030870B8A127EF77DE2AFA /* Pods_ArseekTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C182A251A19E64BF144C5755 /* Pods_ArseekUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CF2A69B698FC6CA2813C1E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B8C1B79BD6E991C2EE4268F /* Pods-Arseek.debug.xcconfig */,
+				9F57589F0A6B33BAA42466FF /* Pods-Arseek.release.xcconfig */,
+				CB18A5815E2ACFFE1242CC5B /* Pods-ArseekTests.debug.xcconfig */,
+				9B9AF179B1C58F188BA05B85 /* Pods-ArseekTests.release.xcconfig */,
+				BB12E7E14B1BA5C371918542 /* Pods-ArseekUITests.debug.xcconfig */,
+				17810B360F0AA1BB9494DB5F /* Pods-ArseekUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B48EDFB61F0436C300668DFD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				B48EDFD81F0436C300668DFD /* ArseekTests */,
 				B48EDFE31F0436C300668DFD /* ArseekUITests */,
 				B48EDFC01F0436C300668DFD /* Products */,
+				8CF2A69B698FC6CA2813C1E6 /* Pods */,
+				C8042F71A14B254473394326 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,16 @@
 			path = ArseekUITests;
 			sourceTree = "<group>";
 		};
+		C8042F71A14B254473394326 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1274E415C9401831F446525D /* Pods_Arseek.framework */,
+				35EEB24744B293FEB381CAE2 /* Pods_ArseekTests.framework */,
+				FC636CB57FBF2A5411652729 /* Pods_ArseekUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B48EDFE91F0436C300668DFD /* Build configuration list for PBXNativeTarget "Arseek" */;
 			buildPhases = (
+				109DF43B7D88E0E123AE1EA4 /* [CP] Check Pods Manifest.lock */,
 				B48EDFBB1F0436C300668DFD /* Sources */,
 				B48EDFBC1F0436C300668DFD /* Frameworks */,
 				B48EDFBD1F0436C300668DFD /* Resources */,
+				99C8C784DA30D4A011B5F6C1 /* [CP] Embed Pods Frameworks */,
+				9D6F95B40530932DCFB88BAE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B48EDFEC1F0436C300668DFD /* Build configuration list for PBXNativeTarget "ArseekTests" */;
 			buildPhases = (
+				07322552BB42979F23AD470D /* [CP] Check Pods Manifest.lock */,
 				B48EDFD11F0436C300668DFD /* Sources */,
 				B48EDFD21F0436C300668DFD /* Frameworks */,
 				B48EDFD31F0436C300668DFD /* Resources */,
+				3EB5FA258B8456B36BBDD7A7 /* [CP] Embed Pods Frameworks */,
+				9979B3FD6EDE4126CBC83641 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B48EDFEF1F0436C300668DFD /* Build configuration list for PBXNativeTarget "ArseekUITests" */;
 			buildPhases = (
+				418EB3D4C96707C5EAF18F3C /* [CP] Check Pods Manifest.lock */,
 				B48EDFDC1F0436C300668DFD /* Sources */,
 				B48EDFDD1F0436C300668DFD /* Frameworks */,
 				B48EDFDE1F0436C300668DFD /* Resources */,
+				14E044F91C798A7EFA45A7AD /* [CP] Embed Pods Frameworks */,
+				B5D5075E2747E5A6B3BBFA05 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +303,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07322552BB42979F23AD470D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		109DF43B7D88E0E123AE1EA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		14E044F91C798A7EFA45A7AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArseekUITests/Pods-ArseekUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EB5FA258B8456B36BBDD7A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArseekTests/Pods-ArseekTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		418EB3D4C96707C5EAF18F3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9979B3FD6EDE4126CBC83641 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArseekTests/Pods-ArseekTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99C8C784DA30D4A011B5F6C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arseek/Pods-Arseek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D6F95B40530932DCFB88BAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arseek/Pods-Arseek-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D5075E2747E5A6B3BBFA05 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArseekUITests/Pods-ArseekUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B48EDFBB1F0436C300668DFD /* Sources */ = {
@@ -421,6 +608,7 @@
 		};
 		B48EDFEA1F0436C300668DFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8C1B79BD6E991C2EE4268F /* Pods-Arseek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2C8QT4S3BM;
@@ -435,6 +623,7 @@
 		};
 		B48EDFEB1F0436C300668DFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F57589F0A6B33BAA42466FF /* Pods-Arseek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2C8QT4S3BM;
@@ -449,6 +638,7 @@
 		};
 		B48EDFED1F0436C300668DFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB18A5815E2ACFFE1242CC5B /* Pods-ArseekTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -465,6 +655,7 @@
 		};
 		B48EDFEE1F0436C300668DFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B9AF179B1C58F188BA05B85 /* Pods-ArseekTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -481,6 +672,7 @@
 		};
 		B48EDFF01F0436C300668DFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB12E7E14B1BA5C371918542 /* Pods-ArseekUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2C8QT4S3BM;
@@ -496,6 +688,7 @@
 		};
 		B48EDFF11F0436C300668DFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17810B360F0AA1BB9494DB5F /* Pods-ArseekUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2C8QT4S3BM;
