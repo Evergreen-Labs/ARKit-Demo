@@ -15,6 +15,7 @@
 //
 
 import UIKit
+import CoreLocation
 
 // MARK: - Services
 
@@ -23,7 +24,6 @@ final class Services {
     let configuration = ConfigurationService()
     let location = LocationService()
     let formatter = FormatterService()
-    let av = AVService()
     
 }
 
@@ -70,38 +70,6 @@ final class FormatterService {
     
     func formatted(time: TimeInterval) -> String {
         return dateFormatter.string(from: time) ?? "0:00:00"
-    }
-    
-}
-
-// MARK: AV Service
-
-final class AVService {
-    
-    private var player: AVAudioPlayer?
-    
-    func playSound(_ name: String = "TADA") throws {
-        guard let asset = NSDataAsset(name: name) else { throw avError.assetError }
-        player = try AVAudioPlayer(data:asset.data, fileTypeHint:"wav")
-        player?.prepareToPlay()
-        player?.play()
-    }
-    
-}
-
-private enum avError: Error {
-    
-    case assetError
-    
-}
-
-extension avError: LocalizedError {
-    
-    var errorDescription: String? {
-        switch self {
-        case .assetError:
-            return NSLocalizedString("Asset not found.", comment: "Check that provided name is correct.")
-        }
     }
     
 }
