@@ -15,6 +15,7 @@
 		B48EDFCF1F0436C300668DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48EDFCD1F0436C300668DFD /* LaunchScreen.storyboard */; };
 		B48EDFDA1F0436C300668DFD /* ArseekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48EDFD91F0436C300668DFD /* ArseekTests.swift */; };
 		B48EDFE51F0436C300668DFD /* ArseekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48EDFE41F0436C300668DFD /* ArseekUITests.swift */; };
+		B4FE9E8B1F20093E00DB8115 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FE9E8A1F20093E00DB8115 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B48EDFE01F0436C300668DFD /* ArseekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArseekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48EDFE41F0436C300668DFD /* ArseekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArseekUITests.swift; sourceTree = "<group>"; };
 		B48EDFE61F0436C300668DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4FE9E8A1F20093E00DB8115 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +104,8 @@
 				B4B9E24E1F14086000325548 /* Protocols */,
 				B4B9E24A1F14082E00325548 /* Core */,
 				B4B9E24F1F14086600325548 /* Views */,
-				B4B9E24C1F14083D00325548 /* Controllers */,
 				B4B9E24B1F14083400325548 /* Coordinators */,
+				B4B9E24C1F14083D00325548 /* Controllers */,
 				B4B9E2491F14082800325548 /* Services */,
 				B4B9E24D1F14085300325548 /* Supplementary */,
 			);
@@ -146,6 +148,7 @@
 		B4B9E24B1F14083400325548 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				B4FE9E8A1F20093E00DB8115 /* AppCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4FE9E8B1F20093E00DB8115 /* AppCoordinator.swift in Sources */,
 				B48EDFC71F0436C300668DFD /* ViewController.swift in Sources */,
 				B48EDFC31F0436C300668DFD /* AppDelegate.swift in Sources */,
 			);
