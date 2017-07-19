@@ -18,7 +18,14 @@
 		B48EDFCF1F0436C300668DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48EDFCD1F0436C300668DFD /* LaunchScreen.storyboard */; };
 		B48EDFDA1F0436C300668DFD /* ArseekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48EDFD91F0436C300668DFD /* ArseekTests.swift */; };
 		B48EDFE51F0436C300668DFD /* ArseekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48EDFE41F0436C300668DFD /* ArseekUITests.swift */; };
-		B4FE9E8B1F20093E00DB8115 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FE9E8A1F20093E00DB8115 /* AppCoordinator.swift */; };
+		B4FE9E8B1F20093E00DB8115 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B4FE9E8F1F2009DD00DB8115 /* StoryboardIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FE9E8C1F2009DD00DB8115 /* StoryboardIdentifiable.swift */; };
+		B4FE9E901F2009DD00DB8115 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FE9E8D1F2009DD00DB8115 /* Coordinator.swift */; };
+		B4FE9E911F2009DD00DB8115 /* RootViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FE9E8E1F2009DD00DB8115 /* RootViewCoordinator.swift */; };
+		B4FE9E941F2009E700DB8115 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FE9E921F2009E700DB8115 /* Foundation.swift */; };
+		B4FE9E951F2009E700DB8115 /* UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FE9E931F2009E700DB8115 /* UIKit.swift */; };
+		B4FE9E981F200A6100DB8115 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FE9E971F200A6100DB8115 /* AppCoordinator.swift */; };
+		B4FE9E9B1F200B4100DB8115 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FE9E9A1F200B4100DB8115 /* Services.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +66,14 @@
 		B48EDFE01F0436C300668DFD /* ArseekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArseekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48EDFE41F0436C300668DFD /* ArseekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArseekUITests.swift; sourceTree = "<group>"; };
 		B48EDFE61F0436C300668DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4FE9E8C1F2009DD00DB8115 /* StoryboardIdentifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryboardIdentifiable.swift; path = ../Extensions/StoryboardIdentifiable.swift; sourceTree = "<group>"; };
+		B4FE9E8D1F2009DD00DB8115 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = ../../../Victory/Victory/protocols/Coordinator.swift; sourceTree = "<group>"; };
+		B4FE9E8E1F2009DD00DB8115 /* RootViewCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewCoordinator.swift; path = ../Extensions/RootViewCoordinator.swift; sourceTree = "<group>"; };
+		B4FE9E921F2009E700DB8115 /* Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foundation.swift; sourceTree = "<group>"; };
+		B4FE9E931F2009E700DB8115 /* UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit.swift; sourceTree = "<group>"; };
+		B4FE9E971F200A6100DB8115 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		B4FE9E991F200B0D00DB8115 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B4FE9E9A1F200B4100DB8115 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		BD29DB07BD5E8E26D260FC70 /* Pods-ArseekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArseekTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArseekTests/Pods-ArseekTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA7D85F8AC6EA86730BD1E59 /* Pods-ArseekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArseekTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArseekTests/Pods-ArseekTests.release.xcconfig"; sourceTree = "<group>"; };
 		E5055D98B416247912DB4244 /* Pods-ArseekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArseekUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArseekUITests/Pods-ArseekUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +123,7 @@
 		B48EDFB61F0436C300668DFD = {
 			isa = PBXGroup;
 			children = (
+				B4FE9E991F200B0D00DB8115 /* Default-568h@2x.png */,
 				B48EDFC11F0436C300668DFD /* Arseek */,
 				B48EDFD81F0436C300668DFD /* ArseekTests */,
 				B48EDFE31F0436C300668DFD /* ArseekUITests */,
@@ -131,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				B4B9E24E1F14086000325548 /* Protocols */,
+				B4FE9E961F2009F000DB8115 /* Extensions */,
 				B4B9E24A1F14082E00325548 /* Core */,
 				B4B9E24F1F14086600325548 /* Views */,
 				B4B9E24B1F14083400325548 /* Coordinators */,
@@ -170,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				B48EDFC21F0436C300668DFD /* AppDelegate.swift */,
+				B4FE9E9A1F200B4100DB8115 /* Services.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -177,7 +195,7 @@
 		B4B9E24B1F14083400325548 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
-				B4FE9E8A1F20093E00DB8115 /* AppCoordinator.swift */,
+				B4FE9E971F200A6100DB8115 /* AppCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -204,6 +222,9 @@
 		B4B9E24E1F14086000325548 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				B4FE9E8D1F2009DD00DB8115 /* Coordinator.swift */,
+				B4FE9E8E1F2009DD00DB8115 /* RootViewCoordinator.swift */,
+				B4FE9E8C1F2009DD00DB8115 /* StoryboardIdentifiable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -214,6 +235,15 @@
 				B48EDFC81F0436C300668DFD /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B4FE9E961F2009F000DB8115 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B4FE9E921F2009E700DB8115 /* Foundation.swift */,
+				B4FE9E931F2009E700DB8115 /* UIKit.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F6060500F40E031D65F3EB93 /* Frameworks */ = {
@@ -505,9 +535,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4FE9E8B1F20093E00DB8115 /* AppCoordinator.swift in Sources */,
+				B4FE9E8F1F2009DD00DB8115 /* StoryboardIdentifiable.swift in Sources */,
+				B4FE9E8B1F20093E00DB8115 /* (null) in Sources */,
+				B4FE9E901F2009DD00DB8115 /* Coordinator.swift in Sources */,
+				B4FE9E941F2009E700DB8115 /* Foundation.swift in Sources */,
+				B4FE9E951F2009E700DB8115 /* UIKit.swift in Sources */,
+				B4FE9E9B1F200B4100DB8115 /* Services.swift in Sources */,
 				B48EDFC71F0436C300668DFD /* ViewController.swift in Sources */,
+				B4FE9E981F200A6100DB8115 /* AppCoordinator.swift in Sources */,
 				B48EDFC31F0436C300668DFD /* AppDelegate.swift in Sources */,
+				B4FE9E911F2009DD00DB8115 /* RootViewCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
